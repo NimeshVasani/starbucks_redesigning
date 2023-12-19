@@ -7,8 +7,7 @@ class CustomTabBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Container(
+    return  Container(
         width: 70,
         decoration: BoxDecoration(
             color: Colors.green.shade200.withOpacity(0.5),
@@ -117,7 +116,7 @@ class CustomTabBar extends StatelessWidget {
               ),
             ],
           ),
-        ),
+
       ),
     );
   }

@@ -101,14 +101,17 @@ Widget homeScreenCard(BuildContext context) {
                         ],
                       ),
                       Positioned(
-                        left: 250,
+                        left: 230,
                         child: Padding(
                           padding: const EdgeInsets.only(bottom: 30.0),
-                          child: Image.asset(
-                            'assets/images/cup_3.png',
-                            height: 180,
-                            width: 145,
-                            fit: BoxFit.contain,
+                          child: RotatedBox(
+                            quarterTurns: 1,
+                            child: Image.asset(
+                              'assets/images/leaf_card.png',
+                              height: 200,
+                              width: 150,
+                              fit: BoxFit.contain,
+                            ),
                           ),
                         ),
                       )

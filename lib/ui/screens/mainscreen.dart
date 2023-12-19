@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:starbucks_redesigning/ui/screens/placeorderscreen.dart';
 
 import 'homescreen.dart';
 
@@ -14,7 +15,7 @@ class _MainScreenState extends State<MainScreen> {
 
   static const List<Widget> _bottomNavScreens = [
     HomeScreen(),
-    HomeScreen(),
+    PlaceOrderScreen(),
     HomeScreen(),
   ];
 
