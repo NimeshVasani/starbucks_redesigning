@@ -4,13 +4,15 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:starbucks_redesigning/ui/screens/placeorderscreen.dart';
 
 class CustomCoffeeItems extends StatefulWidget {
-  const CustomCoffeeItems({super.key});
+  final String image;
+  const CustomCoffeeItems({super.key, required this.image});
 
   @override
   State<CustomCoffeeItems> createState() => _CustomCoffeeItemsState();
 }
 
 class _CustomCoffeeItemsState extends State<CustomCoffeeItems> {
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
@@ -89,7 +91,7 @@ class _CustomCoffeeItemsState extends State<CustomCoffeeItems> {
                           Positioned(
                               bottom: 70,
                               child: Image.asset(
-                                'assets/images/cup_1.png',
+                                widget.image,
                                 height: 140,
                                 width: 80,
                                 fit: BoxFit.fitHeight,

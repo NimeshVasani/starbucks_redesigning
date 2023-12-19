@@ -13,6 +13,14 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  var listImage = [
+    'assets/images/cup_6.png',
+    'assets/images/cup_5.png',
+    'assets/images/cup_4.png',
+    'assets/images/cup_3.png',
+    'assets/images/cup_2.png',
+    'assets/images/cup_1.png',
+  ];
   @override
   Widget build(BuildContext context) {
 
@@ -42,10 +50,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Padding(
                           padding: const EdgeInsets.only(bottom: 170.0),
                           child: ListView.builder(itemBuilder: (BuildContext context, int index){
-                            return  const CustomCoffeeItems();
+                            return   CustomCoffeeItems(image:listImage[index]);
                           },
                             shrinkWrap: true,
-                          itemCount: 10,),
+                          itemCount: 6,),
                         ))
                   ],
                 ),
