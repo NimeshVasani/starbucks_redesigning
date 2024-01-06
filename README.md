@@ -19,7 +19,7 @@ Welcome to my Flutter UI Challenge – Day 2/10: Starbucks App Redesign! ☕✨
 - **Intuitive UI:** Redefining how users interact with the app through a clean and intuitive interface.
 - **Enhanced Navigation:** Streamlining navigation for a more user-friendly journey.
 
-<img src="https://github.com/NimeshVasani/starbucks_redesigning/tree/ca6fb6390f0d6ff27d8d38aa8583c3ec15b4dd5d/screenshots/starbucks_final.jpg" width="400" alt="Image 1">
+<img src="https://github.com/NimeshVasani/starbucks_redesigning/blob/ca6fb6390f0d6ff27d8d38aa8583c3ec15b4dd5d/screenshots/starbucks_final.jpg" width="400" alt="Image 1">
 
 
 ## Why Starbucks?
