@@ -13,15 +13,15 @@ All copyright reserved @Nimesh Vasani
 
 Welcome to my Flutter UI Challenge – Day 2/10: Starbucks App Redesign! ☕✨
 
-![Starbucks App Redesign](insert_direct_image_link_here)
-
 ## Overview
-Thrilled to share the results of my latest Flutter adventure – a complete redesign of the Starbucks app! ☕📱 Visit My GitHub Repo for source code: [Starbucks App Redesign Repo](https://lnkd.in/gSmKvaiW)
 
-## What's New
 - **Smooth Animations:** Elevating the user experience with seamless and eye-catching animations.
 - **Intuitive UI:** Redefining how users interact with the app through a clean and intuitive interface.
 - **Enhanced Navigation:** Streamlining navigation for a more user-friendly journey.
+
+
+![alt text](https://github.com/NimeshVasani/My_Cooking_Gallary/blob/main/snapshots/final_snap_shot.png)
+
 
 ## Why Starbucks?
 Starbucks has always been a pioneer in both coffee culture and innovation. By taking on this redesign, I aimed to match the excellence of the Starbucks brand in the digital space.
